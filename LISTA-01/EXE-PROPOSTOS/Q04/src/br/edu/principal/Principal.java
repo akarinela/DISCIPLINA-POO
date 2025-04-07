@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class Principal {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+	Scanner sc = new Scanner(System.in);
 		
-        Double n1,n2,div;
+        Double nota1,nota2,media;
 		
-		System.out.println("Digite um número: ");
-		 n1 = sc.nextDouble();
+		System.out.println("Digite sua nota 1: ");
+		 nota1 = sc.nextDouble();
 		 
-		 System.out.println("Digite outro número: ");
-		 n2 = sc.nextDouble();
+		 System.out.println("Digite sua nota 2: ");
+		 nota2 = sc.nextDouble();
 		 
-		 div = n1 / n2;
+		 media = ((nota1 * 2) + (nota2 * 3)) / 5;
 		 
-		 System.out.println("A divisão do primeiro numero pelo segundo é: " + div);
+		 System.out.println("A divisão do primeiro numero pelo segundo é: " + media);
 		
 	}
 
