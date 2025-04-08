@@ -1,18 +1,22 @@
 package br.edu.principal;
+	import java.util.Scanner;
+		public class Principal {
+    
+				public static void main(String[] args) {
 
-import java.util.Scanner;
-
-	public class Principal {
-		public static void main(String[] args) {
-
-        double peso;
+        double salario, vendas;
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Digite seu peso (kg): ");
-        peso = sc.nextDouble();
+        System.out.print("Digite o seu salário fixo: ");
+        salario = sc.nextDouble();
 
-        double gramas = peso * 1000;
+        System.out.print("Digite o valor das vendas: ");
+        vendas = sc.nextDouble();
 
-        System.out.println("Seu peso em gramas é, " + gramas);
+        	double comissao = vendas * 4/100;
+        double salarioFinal = salario + comissao;
+
+        	System.out.println("Comissão, R$ " + comissao);
+        System.out.println("Salário final é, R$ " + salarioFinal);
     }
 }
