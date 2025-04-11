@@ -13,6 +13,5 @@ public class SalarioFuncionario {
 
         System.out.printf("Salário a receber:" + salReceber);
 
-        scanner.close();
     }
 }
