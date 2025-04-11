@@ -25,7 +25,6 @@ import java.util.Scanner;
 		        
 		        System.out.println("A sua media: " + media);
 
-		        
-		        scanner.close();
+
 		    }
 		}
