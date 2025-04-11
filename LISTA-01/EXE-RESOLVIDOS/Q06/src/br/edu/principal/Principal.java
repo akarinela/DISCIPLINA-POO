@@ -14,6 +14,5 @@ public class Salario {
 
         System.out.printf("Salário a receber:" + salReceber);
 
-        scanner.close();
     }
 }
