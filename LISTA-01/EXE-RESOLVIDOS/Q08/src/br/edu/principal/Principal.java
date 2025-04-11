@@ -16,6 +16,5 @@ public class RendimentoDeposito {
         System.out.printf("Rendimento:" + rend);
         System.out.printf("Total após rendimento:" + total);
 
-        scanner.close();
     }
 }
