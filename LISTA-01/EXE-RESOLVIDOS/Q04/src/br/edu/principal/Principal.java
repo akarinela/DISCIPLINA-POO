@@ -15,7 +15,6 @@ import java.util.Scanner;
 		      novosal = sal + sal * 25/100;
 		
 		        System.out.println("O seu novo salario é: " + novosal);
- 
-		        scanner.close();
+
 		    }
 		}
