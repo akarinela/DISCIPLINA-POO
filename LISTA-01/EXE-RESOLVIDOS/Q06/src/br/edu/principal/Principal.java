@@ -12,7 +12,7 @@ public class Salario {
 
         double salReceber = sal + grat - imp;
 
-        System.out.printf("Salário a receber: + salReceber);
+        System.out.printf("Salário a receber:" + salReceber);
 
         scanner.close();
     }
