@@ -8,18 +8,17 @@ public class Principal {
 		
 		Scanner sc = new Scanner(System.in);
 		
-        Double preço,novo_preço,desconto;
+        Double preco,novo_preco,desconto;
 		
 		System.out.println("Digite o preço do produto: ");
-		 preço = sc.nextDouble();
+		 preco = sc.nextDouble();
 		 
-		 desconto = preço * 10/100;
+		 desconto = preco * 10/100;
 		 System.out.println("Seu desconto será: " + desconto);
 		 
-		 novo_preço = preço - desconto;
+		 novo_preco = preco - desconto;
 		 
-		 System.out.println("O novo preço será: "  + novo_preço);
+		 System.out.println("O novo preço será: "  + novo_preco);
 		
 	}
-
 }
