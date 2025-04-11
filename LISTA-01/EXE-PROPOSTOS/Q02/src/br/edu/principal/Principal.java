@@ -15,10 +15,10 @@ public class Principal {
 		System.out.println("Digite o segundo número: ");
 		n2 = sc.nextDouble();
 				
-				System.out.println("Digite o terceiro numero: ");
+		System.out.println("Digite o terceiro numero: ");
 		n3 = sc.nextDouble();
 		
-		mult = n1 * n2 * n3 ;
+		mult = n1 * n2 * n3;
 		
 		System.out.println("A multiplicação dos três número é: " + mult);
 
