@@ -31,7 +31,6 @@ import java.util.Scanner;
 		        
 		
 		        System.out.println("Media ponderada é: " + media);
- 
-		        scanner.close();
+
 		    }
 		}
