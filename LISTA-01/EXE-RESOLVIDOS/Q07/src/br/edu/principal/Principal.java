@@ -11,7 +11,7 @@ public class SalarioFuncionario {
 
         double salReceber = sal + 50 - imp;
 
-        System.out.printf("Salário a receber: + salReceber);
+        System.out.printf("Salário a receber:" + salReceber);
 
         scanner.close();
     }
